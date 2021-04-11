@@ -1,74 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Challenge 4</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header class="text-center">
-        <div class="container header">
-            <p>lorem ipsum sit</p>
-            <h1>Responsive layouts don't have to be a struggle</h1>
-        </div>
-        
-    </header>
-    
-    
-    <div class="container">
-        <h2 class="text-center">Quality Designs</h2>
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Dui vivamus arcu felis bibendum ut
-                    tristique. Arcu dui vivamus arcu felis. Sociis natoque
-                    penatibus et magnis dis.</p>
-            </div>
-            <div class="col">
-                <p>Felis donec et odio pellentesque diam volutpat. Aliquam
-                    purus sit amet luctus venenatis. Turpis in eu mi
-                    bibendum neque egestas congue quisque egestas.
-                    Pellentesque sit amet porttitor eget dolor morbi non.</p>
-            </div>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="logo">Snapshot</div>
+      <button class="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
     </div>
 
-    <div class="dark-bg">
-        <div class="container section-two">
-            <div class="row">
-                <div class="col">
-                    <h2 class="accent">Made custom for you</h2>
-                    <p class="white-colour">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam.</p>
-                </div>
-                <div class="col">
-                    <img src="img/image-01.jpg" alt="man watching suset on a hill">
-                </div>
-            </div>
-        </div>
+    <!-- Hero section -->
+
+    <div class="hero-section">
+      <div class="hero-content-heading">
+        <h3>Let's take a snapshot</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero beatae
+          quod molestias voluptas nam <br />
+          facere numquam quos pariatur repellendus excepturi!
+        </p>
+      </div>
+      <div class="hero-content-btn">
+        <a href="#">Learn More</a>
+      </div>
     </div>
 
-    <div class="brown-bg">
-        <div class="container section-three">
-            <div class="row">
-                <div class="col">
-                    <img src="img/image-02.jpg" alt="orange sky over foggy mountains">
-                </div>
-                <div class="col">
-                    <h2 class="accent">Created with care</h2>
-                    <p class="white-colour">Felis donec et odio pellentesque diam volutpat. Aliquam
-                        purus sit amet luctus venenatis. Turpis in eu mi
-                        bibendum neque egestas congue quisque egestas.
-                        Pellentesque sit amet porttitor eget dolor morbi non.</p>
-                </div>
-            </div>
+    <!-- sub-hero section -->
+    <div class="hero-background">
+      <div class="background">
+        <h4>Background</h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Necessitatibus sint ab rerum obcaecati totam neque quam corrupti
+          dolores? Ipsam tempora consequatur quaerat. Voluptates accusamus
+          molestiae nulla sapiente explicabo tempore possimus?
+        </p>
+      </div>
+      <div class="hero-background-pos"></div>
     </div>
+    <div class="snapshot-team">
+      <h2>Snapshot Team</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga,
+        nesciunt!
+      </p>
     </div>
-</body>
+    <div class="snapshot-box">
+      <div class="snapshot-box-content">
+        <div class="box1">
+          <div class="circle"></div>
+          <h5>Linda, Manager</h5>
+        </div>
+        <div class="box1">
+          <div class="circle"></div>
+          <h5>Linda, Manager</h5>
+        </div>
+        <div class="box3">
+          <div class="circle"></div>
+          <h5>Linda, Manager</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery section -->
+    <div class="gallery-section">
+      <div class="gallery-content">
+        <h4>Gallery</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+          sapiente. Nullae rem!
+        </p>
+      </div>
+      <div class="gallery-img">
+        <div>
+          <div class="img">
+            <img
+              src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div>
+          <div class="img">
+            <img
+              src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg"
+              alt=""
+            />
+          </div>
+          <div class="img">
+            <img
+              src="https://image.freepik.com/free-vector/shining-circle-purple-lighting-isolated-dark-background_1441-2396.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer section -->
+    <div class="footer">
+      <div class="footer-content">
+        <h4>Send a message</h4>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum,
+          sapiente. Nuleos rem!
+        </p>
+      </div>
+      <div class="footer-input">
+        <input type="text" placeholder="Name" />
+        <input type="email" placeholder="Email" />
+      </div>
+      <div class="footer-textarea">
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div class="footer-btn">
+        <a href="#">Send Message</a>
+      </div>
+      <h6>Copyright &copy; 2021 Zuri Training.</h6>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>

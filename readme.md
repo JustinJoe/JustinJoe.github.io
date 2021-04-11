@@ -1,6 +1,6 @@
-# Conquering Responsive Design by Kevin Powell Flexbox Challenge
+# Responsive Web Design
 
-This is a solution to the Conquering Responsive layout course by Kevin Powell. 
+This is a solution to the Responsive Web Design task under Zuri Training's Front end Track
 
 ## Table of contents
 
@@ -21,56 +21,37 @@ This is a solution to the Conquering Responsive layout course by Kevin Powell.
 
 Users should be able to:
 
-- code a responsive page using flex box
+- make a page responsive using media query.
+- use JavaScript to make the navigation bar functional.
+- do Not Use Any Framework. Just HTML, CSS, and JavaScript.
 
 ### Screenshot
 
-![Screenshot of my solution](img/screenshot.png) 
+![Screenshot of my solution](screenshot.png)
 
 ## My process
-After 
+
+Looking at the CSS and HTML I was provided, the best and easiest way to make this responsive was desktop instead of my preferred mobile first approach. I then reimagined the desktop flow on a mobile and used media queries to make the page responsive.
 
 ### Built with
 
-- Semantic HTML5 markup
+- HTML5 markup
 - CSS custom properties
+- JavaScript
 - Flex
-- Mobile-first workflow
 
 ### What I learned
 
-- Some useful VSCode shortcuts using Emmet
-
-- Writing CSS hinging on the relationship between a parent and child
-    The first selector targets the children of a split class while the second targets children next to each other
-    ```css
-    .split > * {
-        flex-basis: 100%;
-    }
-    
-    .split > * + * {
-        margin-left: 2em
-    }
-    ```
-    
-    min() helps build a responsive website by keeping a minimum of 90% of the screen filled and max of 70.5em filled depending on the width.
-    Margin left AND right shortcut
-    ```css
-    div {
-        width: min(90%, 70.5em);
-        margin-inline: auto;
-    }
-    
-    ```
+- Position can be replaced using flex.
 
 ### Continued development
 
-I will be focusing on building more responsive pages/websites to strengthen my understanding from the tutorial and my CSS skills by implementing what I've learned in my projects I work on and other challenges such as FrontendMentor.
+I will be focusing on completing all Zuri Training challenges
 
 ### Useful resources
 
 - [Course](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/) - This is a great course for anyone who wants to improve their responsive design skills.
-
+- [Video] (https://www.youtube.com/watch?v=YET_K1w0PJo) - CSS Media Query
 
 ## Author
 
@@ -78,4 +59,4 @@ I will be focusing on building more responsive pages/websites to strengthen my u
 
 ## Acknowledgments
 
-Thanks to Kevin Powell for sharing such an amazing tutorial for free.
+Thanks to Zuri Training for the free training and challenge.
