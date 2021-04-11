@@ -51,7 +51,7 @@ I will be focusing on completing all Zuri Training challenges
 ### Useful resources
 
 - [Course](https://courses.kevinpowell.co/courses/conquering-responsive-layouts/) - This is a great course for anyone who wants to improve their responsive design skills.
-- [Video] (https://www.youtube.com/watch?v=YET_K1w0PJo) - CSS Media Query
+- [Video](https://www.youtube.com/watch?v=YET_K1w0PJo) - CSS Media Query
 
 ## Author
 
